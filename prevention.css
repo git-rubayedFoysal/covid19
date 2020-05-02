@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fcf8f7;
+}
+.header {
+  background-color: #ffffff;
+  height: 105px;
+}
+.header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.continear {
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  box-shadow: 0px 1px 13px 0.2px #c2c2c2;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+  position: absolute;
+  left: 30px;
+}
+
+.logo img {
+  width: 205px;
+  padding: 5px;
+  margin: 3px;
+}
+
+.navbar {
+  width: 55%;
+  float: left;
+  position: relative;
+  left: 380px;
+  padding: 13px;
+}
+.btn {
+  width: 14%;
+  float: left;
+  position: absolute;
+  right: 22px;
+  background-color: rgb(252, 85, 96);
+  font-weight: bold;
+  color: #ffffff;
+  padding: 4px 0px 4px 10px;
+  font-size: 17px;
+  margin-top: 13px;
+  border-radius: 100px;
+}
+
+.fa {
+  font-size: 2px;
+  width: 10px;
+  padding: 10px;
+}
+
+.item li {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 19px;
+}
+
+.item li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.item li a:hover {
+  color: #fa1d00;
+}
+
+.item li .active {
+  color: #fa1d00;
+}
+.btn:hover {
+  background-color: #222222;
+  transition: 1s;
+  border: 2px solid orangered;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.dropdownContent a {
+  display: block;
+  color: #333;
+  border-bottom: 0.1px solid #e0dede;
+}
+.dropdownContent {
+  background-color: #fff;
+  position: absolute;
+  width: 250px;
+  box-shadow: 0px 0px 4px 0px #333;
+  display: none;
+  margin-top: 25px;
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+.dropdown a {
+  padding: 25px 0px;
+}
+.dropbtn:hover {
+  background-color: rgb(231, 222, 222);
+}
+.dropdown:hover .dropdownContent a {
+  color: black;
+}
+
+.allprotect {
+  width: 100%;
+  margin: 130px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.heading {
+  width: 700px;
+  margin: 15px auto;
+  text-align: center;
+}
+.heading span {
+  font-family: "Rubik", sans-serif;
+  width: 50%;
+  padding: 6px 27px;
+  font-size: 15px;
+  border-radius: 16px;
+  background-color: #fceceb;
+  color: #fa1d00;
+}
+.heading h2 {
+  width: 450px;
+  margin: auto;
+  font-size: 41px;
+  margin-top: 18px;
+  color: #1d2534;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.pro1 {
+  width: 27%;
+  position: absolute;
+  top: 515px;
+  left: 68px;
+  margin-bottom: 200px;
+  padding: 50px 10px 10px 10px;
+  z-index: -1;
+  box-shadow: 0px 1px 8px 0.2px #c2c2c2;
+  border-radius: 6px;
+}
+.pro2 {
+  width: 27%;
+  position: absolute;
+  top: 515px;
+  left: 482px;
+  margin-bottom: 200px;
+  padding: 50px 10px 10px 10px;
+  z-index: -1;
+  box-shadow: 0px 1px 8px 0.2px #c2c2c2;
+  border-radius: 6px;
+}
+.pro3 {
+  width: 27%;
+  position: absolute;
+  top: 515px;
+  right: 68px;
+  margin-bottom: 200px;
+  padding: 50px 10px 10px 10px;
+  z-index: -1;
+  box-shadow: 0px 1px 8px 0.2px #c2c2c2;
+  border-radius: 6px;
+}
+.proimg1 {
+  width: 200px;
+  margin: auto;
+}
+.proimg2 {
+  width: 200px;
+  margin: auto;
+}
+.proimg3 {
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.titel {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+.titel h2 {
+  width: 99%;
+  margin: 10px auto;
+  font-size: 28px;
+  color: #1d2534;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.titel p {
+  color: #898c8f;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+}
+
+.foot {
+  width: 238px;
+  border: 2px solid #fa1d00;
+  text-align: center;
+  position: relative;
+  top: 660px;
+  margin: auto;
+  border-radius: 98px;
+  color: #fa1d00;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 75px;
+}
+
+.pro1:hover {
+  transform: translateY(-20px);
+  transition: 1s;
+}
+.pro2:hover {
+  transform: translateY(-20px);
+  transition: 1s;
+}
+.pro3:hover {
+  transform: translateY(-20px);
+  transition: 1s;
+}
+.foot:hover {
+  background-color: #fa1d00;
+  color: white;
+  transition: 1s;
+  transform: scale(0.8);
+}
